@@ -1,5 +1,6 @@
 body {
     margin: auto 0;
+    font-family: arial;
 }
 
 .zone {
@@ -20,6 +21,19 @@ body {
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
+.box:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1)
+    transform: scale(1.1, 1.1)
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}    
+
 /*NAVBAR*/
 .main-nav {
     display: flex;
@@ -28,6 +42,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
 
 @media only screen and (max-width: 600px) {
     .main-nav {
@@ -56,9 +72,14 @@ a {
     display: grid;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 100vh;
 }
- 
+
+.cover {
+    width: 30rem;
+
+} 
+
 
 /* PROJECT GRID*/
 .grid-wrapper {

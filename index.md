@@ -5,7 +5,7 @@
   <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-    <nav class="zone green">
+    <nav class="zone blue sticky">
             <ul class="main-nav">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Products</a></li>
@@ -13,7 +13,7 @@
                 <li class="push"><a href="#">Contact</a></li>
             </ul>
         </nav>
-    <div class="container zone red">COVER!!!</div>
+    <div class="container zone"><img class="cover" src="./undraw.png"></div>
     </div>
 
     <div class="zone blue grid-wrapper">
